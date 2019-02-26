@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Home</title>
+    <link href="home.css" rel="stylesheet" type="text/css">
+    <link href="button.css" rel="stylesheet" type="text/css">
+  </head>
+  <body bgcolor="#69D6E6">
+    <a href="home.html" id="myButton">Home</a>
+    <a href="portfolio.html" id="myButton">Portfolio</a>
+    <a href="about_me.html" id="myButton">About Me</a>
+    <a href="resume.html" id="myButton">Resume</a>
+    <a href="tips.html" id="myButton">Tips and Tricks</a>
+    <h1>This is William's Home Page!</h1>
+    <h2>Enjoy!</h2>
+    <h2><img src="images/baby2.jpg" height="250" alt="A baby yawning"><h2>
+      <button type="button"
+onclick="document.getElementById('demo').innerHTML = Date()">
+Click me to display Date and Time.</button>
+
+<p id="demo"></p>
+<button onclick="myFunction()">What Could This Be?</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+    document.getElementById("demo").innerHTML = "BOO!";
+}
+</script>
+  </body>
+</html>
